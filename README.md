@@ -152,12 +152,13 @@ This project implements all requirements from the INF1002 Python Project specifi
 Contributors
 
 LUSHIQI (2501829)
-
+SYAFIQYEOH (2500818)
 [Add your name and ID]
 
 License
 
 This project is created for educational purposes as part of the INF1002 Programming Fundamentals course.
+
 
 
 
