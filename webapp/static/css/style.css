@@ -53,7 +53,7 @@ body {
 }
 
 .analysis-date {
-    color: #666;
+    color: white;
     font-size: 0.9rem;
     opacity: 0.8;
 }
@@ -256,3 +256,34 @@ button[type="submit"]:hover {
         font-size: 2rem;
     }
 }
+
+/* Dynamic Summary Cards Section */
+.results-section {
+  margin-top: 3rem;
+}
+
+.results-section .result-card {
+  background: var(--bg-white);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 1.5rem;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInSlide 0.6s ease forwards;
+}
+
+@keyframes fadeInSlide {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Charts Section */
+  .chart-container h3,
+  .results-header h2,
+  .results-header p {
+    color: white;
+  }
+
